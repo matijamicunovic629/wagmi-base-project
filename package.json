@@ -1,0 +1,40 @@
+{
+  "name": "wagmi-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.12",
+    "@chakra-ui/react": "2.8.2",
+    "@definedfi/sdk": "^0.5.1",
+    "@orionprotocol/sdk": "^0.20.84",
+    "@tanstack/react-query": "5.0.5",
+    "bignumber.js": "^9.1.2",
+    "ethers": "^6.7.0",
+    "ethers-v6": "npm:ethers@^6.7.0",
+    "graphql-ws": "^5.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "simple-typed-fetch": "^0.2.12",
+    "unfetch": "^4.2.0",
+    "viem": "latest",
+    "vite-plugin-node-polyfills": "^0.21.0",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.1.0",
+    "@wagmi/cli": "latest",
+    "buffer": "^6.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
